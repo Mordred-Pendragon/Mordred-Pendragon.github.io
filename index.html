@@ -1,6 +1,40 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" id="home">
   <head>
+  <!--- Navbar--->
+  <link href='https://fonts.googleapis.com/css?family=Quattrocento+Sans:400,700,400italic|Montserrat:400,700|Cardo:400italic|Advent+Pro:100' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+<!-- NAVIGATION -->
+  <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      </div>
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+        <li><a href="#home" class="scroll">HOME</a></li>
+        <li><a href="#about" class="scroll">ABOUT</a></li>
+        <li><a href="#portfolio" class="scroll">PORTFOLIO</a></li>
+        <li><a href="#contact" class="scroll">CONTACT</a></li>
+      </ul>
+      </div>
+    </div>
+  </nav><ul class="nav navbar-nav ">
+					<li><a href="#about">About</a></li>
+					<li><a href="#demo">Demo</a></li>
+					<li><a href="#features">Features</a></li>
+					<li><a href="#howto">How to</a></li>					
+				</ul><!-- /.navbar-nav -->
+			</div><!-- /.navbar-collapse -->		
+		</div><!-- /.container-fluid -->
+	</nav><!-- /.fixed navigation -->
+	  <!--- Navbar--->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -10,6 +44,7 @@
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 	<link rel="stylesheet" href="css/style.css">
+	
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -20,22 +55,25 @@
   <body>
   
   <!--- jumbotron -->
-  <div class="jumbotron text-center">
-	<img src="img/profile.jpg" class="img-circle">
+  <div class="jumbotron text-center" >
+  <div class="paralax">
+	<img src="img/cube.JPG" class="img-circle" >
 	<h1> Muhammad Isa Syahfigio</h1>
 	<p>Student | UI/UX Designer </p>
   </div>
+  </div>
+  
   <!--- akhir jumbotron --=>
   
   
   
   
   <!--- about --->
-  <section class="about" id="about">
+  <section class="about" id="about" >
 	<div class="container">
 		<div class="row">
 			<div class="col-sm-12">
-				<h2 class="text-center">About</h2>
+				<h2 class="text-center" >About</h2>
 				<hr>
 			</div>
 		</div>	
@@ -172,8 +210,10 @@
   <!--- akhir footer --->
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/jquery-3.2.1.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
+	
+	<script src="js/custom.js"></script>
   </body>
 </html>
